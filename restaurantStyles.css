@@ -1,7 +1,17 @@
 header {
    text-align: center;
+   
 }
 
 footer {
     text-align: center;
+}
+
+h1 {
+    font-family: fantasy;
+    font-size: 300%;
+}
+
+th {
+    font-size: 150%
 }
