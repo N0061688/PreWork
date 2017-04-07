@@ -2,10 +2,23 @@
 <html>
     <head>
         <Title>Home Page</Title>
+         <style>
+          table td {
+            text-align:right;
+            }
+          table td + td {
+              text-align:left;
+          }  
+        </style>
+        <link href="restaurantStyles.css"
+            rel="stylesheet"
+            type="text/css" />
     </head>
     <body>
-        <center><h1>Blake's Bistro</h1></center>
-          <hr></hr>
+        <header>
+            <h1>Blake's Bistro</h1>
+            <hr></hr>
+        </header>
         <a href="RestaurantHome.html" style="padding:25px;">Home</a>&nbsp;
         <a href="Menu.html" style="padding:25px;">Menu</a>&nbsp;
         <a href="RestaurantContact.html" style="padding:25px;">Contact Us</a>
@@ -13,21 +26,21 @@
       <form action="fakePage.html"  method="POST">
             <table align="center">
                 <tr>
-                    <td align="right">Name:</td>
-                    <td align="left"><input type="text" name="Name" /></td>
+                    <td>Name:</td>
+                    <td><input type="text" name="Name" /></td>
                 </tr>
                 <tr>
-                    <td align="right">Email:</td>
-                    <td align="left"><input type="text" name="Email" /><td/>
+                    <td>Email:</td>
+                    <td><input type="text" name="Email" /><td/>
                 </tr>
                 <tr>
-                    <td align="right">Phone:</td>
-                    <td align="left"><input type="text" name="Phone" /><td/>
+                    <td>Phone:</td>
+                    <td><input type="text" name="Phone" /><td/>
                 </tr>
               
                 <tr>
-                    <td align="right">Reason for Inquiry:</td> 
-                    <td align="left">
+                    <td>Reason for Inquiry:</td> 
+                    <td>
                         <select name="reason">
                             <option value="Catering">Catering</option>
                             <option value="Private Party">Private Party</option>
@@ -37,16 +50,16 @@
                     </td>
                 </tr>
                 <tr valign=top>
-                    <td align="right">Additional Information:</td>
-                    <td align="left"><textarea name="AdditionalInfo" rows="10"></textarea></td>
+                    <td>Additional Information:</td>
+                    <td><textarea name="AdditionalInfo" rows="10"></textarea></td>
                 </tr>
                   <tr>
-                    <td align="right">Have you been to the restaurant?:</td>
-                    <td align="left"><input type="radio" name="no" value="no" checked/>No <input type="radio" name="Yes" value="Yes" />Yes</td><br/>
+                    <td>Have you been to the restaurant?:</td>
+                    <td><input type="radio" name="no" value="no" checked/>No <input type="radio" name="Yes" value="Yes" />Yes</td><br/>
                 </tr>
                 <tr>
-                    <td align="right">Best days to contact you:</td>
-                    <td align="left"><input type="checkbox" name="Monday" value="Mon"/>M <input type="checkbox" name="Tuesday" value="Tue"/>T <input type="checkbox" name="Wednesday" value="Wed"/>W <input type="checkbox" name="Thursday" value="Thu"/>Th <input type="checkbox" name="Friday" value="Fri"/>F</td>
+                    <td>Best days to contact you:</td>
+                    <td><input type="checkbox" name="Monday" value="Mon"/>M <input type="checkbox" name="Tuesday" value="Tue"/>T <input type="checkbox" name="Wednesday" value="Wed"/>W <input type="checkbox" name="Thursday" value="Thu"/>Th <input type="checkbox" name="Friday" value="Fri"/>F</td>
                 <tr>
                     <td></td>
                     <td align="center"><input type="submit" value="Send Request"/>
@@ -54,9 +67,11 @@
         </form>
             <br/>
             <br/>
-        <hr></hr>
-            <center>500 Main Street, Dover, NH, 03820</center>
+        <footer>
+            <hr></hr>
+            500 Main Street, Dover, NH, 03820
             <br/>
-            <center>603-987-6543</center>
+            603-987-6543
+        </footer>
     </body>
 </html>
