@@ -1,0 +1,4 @@
+Total Height = 150px + 20px + 20px + 1px + 1px +10px +10px = 212px
+Total Width = 400px + 20px + 20px +1 px + 1px + 10px + 10px = 462px
+Browser Height = 150px + 1px + 1px + 10px + 10px = 172px
+Browser Width = 400px +1px +1px + 10px + 10px = 422px
