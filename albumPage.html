@@ -2,23 +2,18 @@
 <html>
     <head>
       <Title>Christopher Blake - Lab Album Page</Title>  
+      <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
       <style>
           h2 {
             color: darkred;
             }
-            Body {
-                background-image: url(images/AlbumCover.jpg);
-                background-repeat: no-repeat;
-                background-position: center;
-                background-position: top;
-            }
-      </style>
+        </style>
       <link href="albumStyles.css"
             rel="stylesheet"
             type="text/css" />
     </head>
     <body>
-        <div class="space"></div>
+        <center><img src="images/AlbumCover.jpg" class="img-circle"></center>
         <h1 style="font-family: Fantasy;">Led Zeppelin IV</h1>
         <h2><a href="http://www.ledzeppelin.com">Led Zeppelin</a></h2>
         <h3>November 8, 1971</h3>
@@ -31,57 +26,60 @@
             <li>John Paul Jones - Bass</li>
             <li>Produced by Jimmy Page</li>
         </ul>
-        <table align="center" border="1" width="25%">
-            <caption><h2>Tracks</h2></caption>
-            <thead>
-                <tr bgcolor="grey">
-                    <th>Track #</th>
-                    <th>Track Title</th>
-                    <th>Track Length</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>Black Dog</td>
-                    <td>4:54</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Rock and Roll</td>
-                    <td>3:40</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>The Battle of Evermore</td>
-                    <td>5:51</td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>Stairway to Heaven</td>
-                    <td>8:02</td>
-                </tr>
-                <tr>
-                    <td>5</td>
-                    <td>Misty Mountain Hop</td>
-                    <td>4:38</td>
-                </tr>
-                <tr>
-                    <td>6</td>
-                    <td>Four Sticks</td>
-                    <td>4:44</td>
-                </tr>
-                <tr>
-                    <td>7</td>
-                    <td>Going to California</td>
-                    <td>3:31</td>
-                </tr>
-                <tr>
-                    <td>8</td>
-                    <td>When the Levee Breaks</td>
-                    <td>7:07</td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="table-responsive">
+            <table class="table">
+                <table class="table table-striped" align="center" border="1" width="25%">
+                <caption><h2>Tracks</h2></caption>
+                <thead>
+                    <tr bgcolor="grey">
+                        <th>Track #</th>
+                        <th>Track Title</th>
+                        <th>Track Length</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Black Dog</td>
+                        <td>4:54</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Rock and Roll</td>
+                        <td>3:40</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>The Battle of Evermore</td>
+                        <td>5:51</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Stairway to Heaven</td>
+                        <td>8:02</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Misty Mountain Hop</td>
+                        <td>4:38</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Four Sticks</td>
+                        <td>4:44</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Going to California</td>
+                        <td>3:31</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>When the Levee Breaks</td>
+                        <td>7:07</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </body>
 </html>
