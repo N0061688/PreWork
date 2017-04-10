@@ -30,3 +30,7 @@ tbody {
     font-style: italic;
     background-color: coral
 }
+
+th {
+    text-align: center;
+}

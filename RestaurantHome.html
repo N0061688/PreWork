@@ -2,10 +2,19 @@
 <html>
     <head>
         <Title>Home Page</Title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
         <style>
             div {
                 background-color:olivedrab
                             }
+                              h1 {
+                text-align:center;
+            }
+            p {
+                text-align:center;
+            }
 
         </style>
 
@@ -18,9 +27,20 @@
             <h1>Blake's Bistro</h1>
             <hr></hr>
         </header>
-        <a href="RestaurantHome.html" style="padding:25px;">Home</a>
-        <a href="RestaurantMenu.html" style="padding:25px;">Menu</a>
-        <a href="RestaurantContact.html" style="padding:25px;">Contact Us</a>
+        <ul class="nav nav-pills">
+            <li role="presentation" class="active"><a href="RestaurantHome.html"><span class="glyphicon glyphicon-home"></span></a></li>
+            <li role="presentation"><a href="RestaurantMenu.html">Menu</a></li>
+            <li role="presentation"><a href="RestaurantContact.html">Contact Us</a></li>
+        </ul>
+        <div class = "container">
+
+            <div class = "jumbotron">
+                <h1>Opening soon!</h1>
+                 <p>Join us in our new Portsmouth location.</p>
+                         
+            </div>
+            
+        </div>
         
        <div>
            <hr></hr>

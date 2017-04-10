@@ -15,17 +15,7 @@ h1 {
 th {
     font-size: 150%
 }
-a {
-  font-weight: none;
-}
 
-a:visited {
-  color: mediumvioletred;
-}
-a:hover {
-  font-weight: bold
-  
-}
-a:active {
-  text-decoration: none;
+th {
+  text-align: center;
 }
